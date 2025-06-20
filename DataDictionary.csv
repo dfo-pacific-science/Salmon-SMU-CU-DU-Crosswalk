@@ -1,0 +1,71 @@
+Column Letter,Field Name,Field Definition,Codes
+A,DFO Area,"The DFO (Fisheries and Oceans Canada) area that the unit resides in, either South Coast, North Coast, Fraser and Interior, Yukon Transboundary.","South Coast, North Coast, Fraser and Interior, Yukon Transboundary"
+B,Species,Describes the species of salmon for which the unit is designated.,"Chinook, Chum, Coho, Pink, Sockeye"
+C,SMU Name,The assigned name of the Stock Management Unit (SMU).,Blank or null = No Stock Management Unit has been designated for the Conservation Unit.
+D,Full SMU Index,"The unique ID to identify Stock Management Units (SMU). The IDs were created in 2024 and are similar to Full Conservation Unit Index. Units are alpha-numeric, the first part of the ID identifies the species followed the Pacific Region area and a number.","SER = Sockeye (River Type)
+SEL = Sockeye (Lake Type)
+SEL/SER = Sockeye (River & Lake Type) 
+CM = Chum 
+CO = Coho
+PK = Pink 
+PKE = Pink-Even
+PKO = Pink-Odd
+CK = Chinook"
+E,SMU Life History Type,"The SMU life history type describes the set of Conservation Unit (CU) life history types that are included within a Salmon Management Unit (SMU). Since an SMU is a grouping of multiple CUs, the SMU life history type does not represent a new or unique biological classification. Instead, it summarizes the diversity of life history strategies—such as Odd/Even Year for Pink Salmon or Lake-Type/River-Type for Sockeye Salmon—that exist within the CUs that make up the SMU. There is typically only one life history type per SMU.","Odd Year
+Even Year
+Lake Type
+River Type"
+F,CU Name,The assigned name of the Conservation Unit (CU).,
+G,Full CU Index,"The unique ID to identify Conservation Units (CU). Units are alpha-numeric, the first part of the ID identifies the species followed by a number.","SER = Sockeye (River Type)
+SEL = Sockeye (Lake Type)
+CM = Chum 
+CO = Coho
+PKE = Pink-Even
+PKO = Pink-Odd
+CK = Chinook"
+H,CU Life History Type,Describes the life cycle patterns of the salmon,"Odd Year
+Even Year
+Lake Type
+River Type"
+I,CU Type,"There are currently nine Conservation Unit (CU). types, i.e.,Current, Extirpated, Bin, Deprecated, Deprecated(Bin), VREQ[Bin], VREQ[Current], VREQ[Extirpated] and Deleted (not included in the current dataset)  based upon Blair Holtby's Rev 4.0 Conservation Unit data refresh.","Current, Extirpated,  Bin, Deprecated, Deprecated(Bin), VREQ[Bin], VREQ[Current], VREQ[Extirpated]"
+,,,
+,,Current,
+,,CU is extant and is either accepted or has been proposed.,
+,,,
+,,Extirpated,
+,,There are no known sites with fish spawning successfully in the wild and there are no known hatchery sites.,
+,,,
+,,Bin,
+,,"Not a CU, but a category to hold sites that, for various reasons, are not assigned to a Conservation Unit (CU). Reasonable uses of the Bin category include:
+a) sites where migratory dropouts are counted but cannot be reliably assigned to CUs;
+b) sites where transplanted fish are enumerated under the premise that DFO is recreating an extinct CU; and
+c) sites where transplanted fish are enumerated outside the ecotypical zone of the source population and no claim is made of recreating an extinct CU.
+Hatchery sites are often classified as a Bin.",
+,,,
+,,Deprecated,
+,,"An extant CU was merged with another CU or CUs. The CU should no longer be used. A deprecated CU is neither deleted nor extirpated because at least one of its populations persists or is believed to, and has been assigned to another CU. This category is used to manage changes to CUs, and is not a CU.",
+,,,
+,,Deprecated(Bin),
+,,"An extant CU was merged with another CU or CUs. The CU should no longer be used. A deprecated CU is neither deleted nor extirpated because at least one of its populations persists or is believed to, and has been assigned to another CU. This category is used to manage changes to CUs, and is not a CU. (Bin)-See definition for Bin.",
+,,,
+,,VREQ[Bin],
+,,VREQ[] : Indicates that there is some doubt about the nature of the CU and validation is required.   [Bin]-See definition for Bin. The most common use of the prefix is for sockeye CUs on the central and north coasts that were identified by presumed suitability rather than by actual verified records of persistent presence.  The second most common use is for CUs that likely were valid but  it is unknown if they persist. Again these are mostly sockeye CUs.,
+,,,
+,,VREQ[Current],
+,,VREQ[] : Indicates that there is some doubt about the nature of the CU and validation is required. [Current]-See definition for Current. The most common use of the prefix is for sockeye CUs on the central and north coasts that were identified by presumed suitability rather than by actual verified records of persistent presence.  The second most common use is for CUs that likely were valid but  it is unknown if they persist. Again these are mostly sockeye CUs.,
+,,,
+,,VREQ[Extirpated],
+,,VREQ[] : Indicates that there is some doubt about the nature of the CU and validation is required. [Extirpated]-See definition for Extirpated. The most common use of the prefix is for sockeye CUs on the central and north coasts that were identified by presumed suitability rather than by actual verified records of persistent presence.  The second most common use is for CUs that likely were valid but  it is unknown if they persist. Again these are mostly sockeye CUs.   Extirpated: There are no known sites with fish spawning successfully in the wild and there are no known hatchery sites. ,
+,,,
+,,Deleted,
+,,"The CU was deleted after confirmation that no persistent populations were ever present within recorded history within the area of the CU. This category is used to manage changes to CUs, and is not a CU.",
+J,DU Name,The assigned name of the  Designatable Unit (DU). Note: Chum and Pink Salmon DUs are currently under review by COSEWIC and will be added to this table once finalized. They are not currently shown.,
+K,DU Number, Designatable Unit (DU) number. Please be aware that there are duplicate DU numbers as each species has consecutive DU numbers.,
+L,Full DU Index,"The unique ID is used to identify a Designatable Unit (DU). These IDs were created in 2025 by DFO and are similar to the Full Conservation Unit Index. The units are alphanumeric: the first part of the ID identifies the species, followed by “DU” and a number.","SER = Sockeye (River Type)
+SEL = Sockeye (Lake Type)
+CM = Chum 
+CO = Coho
+PKE = Pink-Even
+PKO = Pink-Odd
+CK = Chinook"
+M,DU Acronym,Acronym for Designatable Unit (DU).,
