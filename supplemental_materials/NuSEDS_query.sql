@@ -1,16 +1,17 @@
 select 
 scd.cu_dfo_area as "DFO Area",
-scd.cu_species as "Species",
+scd.cu_species as "Species Name",
 scd.smu_name as "SMU Name",
-scd.FULL_SMU_IN as "Full SMU Index",
+scd.FULL_SMU_IN as "SMU Full Index",
 scd.smu_lh_type as "SMU Life History Type",
 scd.CU_NAME as "CU Name",
-scd.FULL_CU_IN as "Full CU Index",
+--scd.COMMON_NAME as "CU Common Name",
+scd.FULL_CU_IN as "CU Full Index",
 scd.CU_LH_TYPE as  "CU Life History Type",
 scd.cu_type as "CU Type",
 scd.DU_NAME as "DU Name",
 scd.DU_NUMBER as "DU Number",
-scd.FULL_DU_IN as "Full DU Index",
+scd.FULL_DU_IN as "DU Full Index",
 scd.DU_ACRO as "DU Acronym"
 from Nuseds_V2_0.SMU_CU_DU_CROSSWALK_VW scd order by scd.cu_dfo_area, scd.cu_species; 
 

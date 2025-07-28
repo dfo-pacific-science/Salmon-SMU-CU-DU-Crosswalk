@@ -1,8 +1,8 @@
-Column Letter,Field Name,Field Definition,Codes
+ÔªøColumn Letter,Field Name,Field Definition,Codes
 A,DFO Area,"The DFO (Fisheries and Oceans Canada) area that the unit resides in, either South Coast, North Coast, Fraser and Interior, Yukon Transboundary.","South Coast, North Coast, Fraser and Interior, Yukon Transboundary"
-B,Species,Describes the species of salmon for which the unit is designated.,"Chinook, Chum, Coho, Pink, Sockeye"
+B,Species Name,Describes the species of salmon for which the unit is designated.,"Chinook, Chum, Coho, Pink, Sockeye"
 C,SMU Name,The assigned name of the Stock Management Unit (SMU).,Blank or null = No Stock Management Unit has been designated for the Conservation Unit.
-D,Full SMU Index,"The unique ID to identify Stock Management Units (SMU). The IDs were created in 2024 and are similar to Full Conservation Unit Index. Units are alpha-numeric, the first part of the ID identifies the species followed the Pacific Region area and a number.","SER = Sockeye (River Type)
+D,SMU Full Index,"The unique ID to identify Stock Management Units (SMU). The IDs were created in 2024 and are similar to Full Conservation Unit Index. Units are alpha-numeric, the first part of the ID identifies the species followed the Pacific Region area and a number.","SER = Sockeye (River Type)
 SEL = Sockeye (Lake Type)
 SEL/SER = Sockeye (River & Lake Type) 
 CM = Chum 
@@ -11,12 +11,12 @@ PK = Pink
 PKE = Pink-Even
 PKO = Pink-Odd
 CK = Chinook"
-E,SMU Life History Type,"The SMU life history type describes the set of Conservation Unit (CU) life history types that are included within a Salmon Management Unit (SMU). Since an SMU is a grouping of multiple CUs, the SMU life history type does not represent a new or unique biological classification. Instead, it summarizes the diversity of life history strategiesósuch as Odd/Even Year for Pink Salmon or Lake-Type/River-Type for Sockeye Salmonóthat exist within the CUs that make up the SMU. There is typically only one life history type per SMU.","Odd Year
+E,SMU Life History Type,"The SMU life history type describes the set of Conservation Unit (CU) life history types that are included within a Salmon Management Unit (SMU). Since an SMU is a grouping of multiple CUs, the SMU life history type does not represent a new or unique biological classification. Instead, it summarizes the diversity of life history strategies‚Äîsuch as Odd/Even Year for Pink Salmon or Lake-Type/River-Type for Sockeye Salmon‚Äîthat exist within the CUs that make up the SMU. There is typically only one life history type per SMU.","Odd Year
 Even Year
 Lake Type
 River Type"
 F,CU Name,The assigned name of the Conservation Unit (CU).,
-G,Full CU Index,"The unique ID to identify Conservation Units (CU). Units are alpha-numeric, the first part of the ID identifies the species followed by a number.","SER = Sockeye (River Type)
+G,CU Full Index,"The unique ID to identify Conservation Units (CU). Units are alpha-numeric, the first part of the ID identifies the species followed by a number.","SER = Sockeye (River Type)
 SEL = Sockeye (Lake Type)
 CM = Chum 
 CO = Coho
@@ -61,7 +61,7 @@ Hatchery sites are often classified as a Bin.",
 ,,"The CU was deleted after confirmation that no persistent populations were ever present within recorded history within the area of the CU. This category is used to manage changes to CUs, and is not a CU.",
 J,DU Name,The assigned name of the  Designatable Unit (DU). Note: Chum and Pink Salmon DUs are currently under review by COSEWIC and will be added to this table once finalized. They are not currently shown.,
 K,DU Number, Designatable Unit (DU) number. Please be aware that there are duplicate DU numbers as each species has consecutive DU numbers.,
-L,Full DU Index,"The unique ID is used to identify a Designatable Unit (DU). These IDs were created in 2025 by DFO and are similar to the Full Conservation Unit Index. The units are alphanumeric: the first part of the ID identifies the species, followed by ìDUî and a number.","SER = Sockeye (River Type)
+L,DU Full Index,"The unique ID is used to identify a Designatable Unit (DU). These IDs were created in 2025 by DFO and are similar to the Full Conservation Unit Index. The units are alphanumeric: the first part of the ID identifies the species, followed by ‚ÄúDU‚Äù and a number.","SER = Sockeye (River Type)
 SEL = Sockeye (Lake Type)
 CM = Chum 
 CO = Coho
