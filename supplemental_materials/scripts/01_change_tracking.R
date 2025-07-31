@@ -30,7 +30,7 @@ compare_crosswalks <- function() {
   previous_data <- read.csv(previous_file, stringsAsFactors = FALSE)
   
   # Define key column
-  key_col <- "Full.CU.Index"
+  key_col <- "CU.Full.Index"
   
   # Validate key column presence
   if (!(key_col %in% colnames(current_data)) || !(key_col %in% colnames(previous_data))) {
@@ -82,7 +82,7 @@ compare_crosswalks <- function() {
   
   # Function to report differences for a single row
   report_differences <- function(key, curr_row, prev_row) {
-    text <- sprintf("##### FULL CU INDEX: %s\n", key)
+    text <- sprintf("##### CU FULL INDEX: %s\n", key)
     for (col in compare_cols) {
       curr_val <- curr_row[[col]]
       prev_val <- prev_row[[col]]

@@ -16,18 +16,19 @@ Even Year
 Lake Type
 River Type"
 F,CU Name,The assigned name of the Conservation Unit (CU).,
-G,CU Full Index,"The unique ID to identify Conservation Units (CU). Units are alpha-numeric, the first part of the ID identifies the species followed by a number.","SER = Sockeye (River Type)
+G,CU Common Name,An informal or commonly used name for the Conservation Unit (CU),
+H,CU Full Index,"The unique ID to identify Conservation Units (CU). Units are alpha-numeric, the first part of the ID identifies the species followed by a number.","SER = Sockeye (River Type)
 SEL = Sockeye (Lake Type)
 CM = Chum 
 CO = Coho
 PKE = Pink-Even
 PKO = Pink-Odd
 CK = Chinook"
-H,CU Life History Type,Describes the life cycle patterns of the salmon,"Odd Year
+I,CU Life History Type,Describes the life cycle patterns of the salmon,"Odd Year
 Even Year
 Lake Type
 River Type"
-I,CU Type,"There are currently nine Conservation Unit (CU). types, i.e.,Current, Extirpated, Bin, Deprecated, Deprecated(Bin), VREQ[Bin], VREQ[Current], VREQ[Extirpated] and Deleted (not included in the current dataset)  based upon Blair Holtby's Rev 4.0 Conservation Unit data refresh.","Current, Extirpated,  Bin, Deprecated, Deprecated(Bin), VREQ[Bin], VREQ[Current], VREQ[Extirpated]"
+J,CU Type,"There are currently nine Conservation Unit (CU). types, i.e.,Current, Extirpated, Bin, Deprecated, Deprecated(Bin), VREQ[Bin], VREQ[Current], VREQ[Extirpated] and Deleted (not included in the current dataset)  based upon Blair Holtby's Rev 4.0 Conservation Unit data refresh.","Current, Extirpated,  Bin, Deprecated, Deprecated(Bin), VREQ[Bin], VREQ[Current], VREQ[Extirpated]"
 ,,,
 ,,Current,
 ,,CU is extant and is either accepted or has been proposed.,
@@ -59,13 +60,13 @@ Hatchery sites are often classified as a Bin.",
 ,,,
 ,,Deleted,
 ,,"The CU was deleted after confirmation that no persistent populations were ever present within recorded history within the area of the CU. This category is used to manage changes to CUs, and is not a CU.",
-J,DU Name,The assigned name of the  Designatable Unit (DU). Note: Chum and Pink Salmon DUs are currently under review by COSEWIC and will be added to this table once finalized. They are not currently shown.,
-K,DU Number, Designatable Unit (DU) number. Please be aware that there are duplicate DU numbers as each species has consecutive DU numbers.,
-L,DU Full Index,"The unique ID is used to identify a Designatable Unit (DU). These IDs were created in 2025 by DFO and are similar to the Full Conservation Unit Index. The units are alphanumeric: the first part of the ID identifies the species, followed by “DU” and a number.","SER = Sockeye (River Type)
+K,DU Name,The assigned name of the  Designatable Unit (DU). Note: Chum and Pink Salmon DUs are currently under review by COSEWIC and will be added to this table once finalized. They are not currently shown.,
+L,DU Number, Designatable Unit (DU) number. Please be aware that there are duplicate DU numbers as each species has consecutive DU numbers.,
+M,DU Full Index,"The unique ID is used to identify a Designatable Unit (DU). These IDs were created in 2025 by DFO and are similar to the Full Conservation Unit Index. The units are alphanumeric: the first part of the ID identifies the species, followed by “DU” and a number.","SER = Sockeye (River Type)
 SEL = Sockeye (Lake Type)
 CM = Chum 
 CO = Coho
 PKE = Pink-Even
 PKO = Pink-Odd
 CK = Chinook"
-M,DU Acronym,Acronym for Designatable Unit (DU).,
+N,DU Acronym,Acronym for Designatable Unit (DU).,

@@ -1,6 +1,13 @@
 # CHANGELOG
 All notable changes to this project will be documented in this file.
 
+## [2025.07.31]
+##### CU FULL INDEX: CK-01
+- Added New column:  **CU Common Name**
+- updated **DataDictionary**
+
+
+
 ## [2025.07.28]
 ##### CU FULL INDEX: SEL-13-09
 - **CU Name**: Changed from `'HENDERSON'` to `'HUCUKTLIS'` 
