@@ -1,0 +1,125 @@
+id: https://dfo-pacific-science.github.io/Salmon-SMU-CU-DU-Crosswalk/schema
+name: salmon_smu_cu_du_crosswalk
+title: Salmon SMU-CU-DU Crosswalk Schema
+description: >
+  LinkML schema describing the columns and controlled
+  vocabularies for the pacific_salmon_smu_cu_du_x_walk.csv dataset.
+license: https://creativecommons.org/licenses/by/4.0/
+
+prefixes:
+  crosswalk: https://dfo-pacific-science.github.io/Salmon-SMU-CU-DU-Crosswalk/
+
+default_prefix: crosswalk
+default_range: string
+
+enums:
+  dfo_area_enum:
+    permissible_values:
+      SOUTH COAST: {}
+      NORTH COAST: {}
+      FRASER AND INTERIOR: {}
+      YUKON AND TRANSBOUNDARY: {}
+
+  species_enum:
+    permissible_values:
+      Chinook: {}
+      Chum: {}
+      Coho: {}
+      Pink: {}
+      Sockeye: {}
+
+  smu_lh_enum:
+    permissible_values:
+      Odd Year: {}
+      Even Year: {}
+      Lake Type: {}
+      River Type: {}
+      Even Year; Odd Year: {}
+      Lake Type; River Type: {}
+
+  cu_lh_enum:
+    permissible_values:
+      Odd Year: {}
+      Even Year: {}
+      Lake Type: {}
+      River Type: {}
+
+  cu_type_enum:
+    permissible_values:
+      Current: {}
+      Extirpated: {}
+      Bin: {}
+      Deprecated: {}
+      Deprecated(Bin): {}
+      VREQ[Bin]: {}
+      VREQ[Current]: {}
+      VREQ[Extirpated]: {}
+
+slots:
+  DFO_Area:
+    description: DFO area containing the CU/SMU.
+    range: dfo_area_enum
+
+  Species_Name:
+    description: Pacific salmon species.
+    range: species_enum
+
+  SMU_Name:
+    description: Stock Management Unit name.
+
+  SMU_Full_Index:
+    description: Stock Management Unit identifier.
+
+  SMU_Life_History_Type:
+    description: Life history types represented within the SMU.
+    range: smu_lh_enum
+
+  CU_Name:
+    description: Conservation Unit name.
+
+  CU_Common_Name:
+    description: Conservation Unit common name.
+
+  CU_Full_Index:
+    description: Conservation Unit identifier.
+    identifier: true
+
+  CU_Life_History_Type:
+    description: CU life history type.
+    range: cu_lh_enum
+
+  CU_Type:
+    description: Conservation Unit status/category.
+    range: cu_type_enum
+
+  DU_Name:
+    description: Designatable Unit name.
+
+  DU_Number:
+    description: Designatable Unit number.
+
+  DU_Full_Index:
+    description: Designatable Unit identifier.
+
+  DU_Acronym:
+    description: Designatable Unit acronym.
+
+classes:
+  CrosswalkRecord:
+    description: Row of the SMU-CU-DU crosswalk.
+    slots:
+      - CU_Full_Index
+      - DFO_Area
+      - Species_Name
+      - SMU_Name
+      - SMU_Full_Index
+      - SMU_Life_History_Type
+      - CU_Name
+      - CU_Common_Name
+      - CU_Life_History_Type
+      - CU_Type
+      - DU_Name
+      - DU_Number
+      - DU_Full_Index
+      - DU_Acronym
+
